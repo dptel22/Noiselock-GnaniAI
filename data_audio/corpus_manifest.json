@@ -1,0 +1,314 @@
+[
+  {
+    "clip_id": "real_street_kn_01",
+    "snr_label": "real_street",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/real_street_kn_01.wav",
+    "ground_truth": {
+      "plate": "KA01MJ4821",
+      "amount": 14500,
+      "date": "15-11"
+    },
+    "spoken_text": "ಹೌದು ಸರ್, KA 01 MJ 4821, ಹದಿನಾಲ್ಕು ಸಾವಿರದ ಐನೂರು ರೂಪಾಯಿ, 15th November.",
+    "notes": "Hero Bengaluru street call recorded near Silk Board junction with bus rumble."
+  },
+  {
+    "clip_id": "real_street_kn_02",
+    "snr_label": "real_street",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/real_street_kn_02.wav",
+    "ground_truth": {
+      "plate": "KA04EL9033",
+      "amount": 8200,
+      "date": "10-11"
+    },
+    "spoken_text": "ನಾನ್ KA 04 EL 9033 ಕಡೆಯಿಂದ ಮಾತಾಡ್ತಿರೋದು, 8200 ರೂಪಾಯಿ 10th November.",
+    "notes": "Recorded in auto-rickshaw with wind buffeting and road bumps."
+  },
+  {
+    "clip_id": "real_street_hi_03",
+    "snr_label": "real_street",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/real_street_hi_03.wav",
+    "ground_truth": {
+      "plate": "DL03CA1234",
+      "amount": 18500,
+      "date": "18-11"
+    },
+    "spoken_text": "हाँ जी, गाड़ी DL 03 CA 1234 का अठारह हज़ार पाँच सौ, 18th November को दे दूँगा.",
+    "notes": "Recorded near metro station escalator with ambient announcements."
+  },
+  {
+    "clip_id": "real_street_hi_04",
+    "snr_label": "real_street",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/real_street_hi_04.wav",
+    "ground_truth": {
+      "plate": "UP16AX5566",
+      "amount": 9500,
+      "date": "12-11"
+    },
+    "spoken_text": "UP 16 AX 5566, नौ हज़ार पाँच सौ रुपये, 12th November को भरूँगा.",
+    "notes": "Recorded on busy market street with pedestrian chatter."
+  },
+  {
+    "clip_id": "real_street_ta_05",
+    "snr_label": "real_street",
+    "language": "ta-IN",
+    "audio_path": "data_audio/wavs/real_street_ta_05.wav",
+    "ground_truth": {
+      "plate": "TN09BY7890",
+      "amount": 12000,
+      "date": "20-11"
+    },
+    "spoken_text": "TN 09 BY 7890 வண்டிக்கு பன்னிரெண்டாயிரம் ரூபாய், 20th November.",
+    "notes": "Recorded roadside with two-wheeler acceleration noise."
+  },
+  {
+    "clip_id": "real_street_kn_06",
+    "snr_label": "real_street",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/real_street_kn_06.wav",
+    "ground_truth": {
+      "plate": "KA05MN3321",
+      "amount": 6500,
+      "date": "05-11"
+    },
+    "spoken_text": "KA 05 MN 3321, ಆರು ಸಾವಿರದ ಐನೂರು ರೂಪಾಯಿ, 5th November ಕನ್ಫರ್ಮ್.",
+    "notes": "Recorded with ceiling fan at high speed causing low-frequency flutter."
+  },
+  {
+    "clip_id": "real_street_hi_07",
+    "snr_label": "real_street",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/real_street_hi_07.wav",
+    "ground_truth": {
+      "plate": "MH02DF4411",
+      "amount": 25000,
+      "date": "25-11"
+    },
+    "spoken_text": "MH 02 DF 4411 का पच्चीस हज़ार, पच्चीस तारीख़ को.",
+    "notes": "Recorded with truck horn blast during the plate dictation."
+  },
+  {
+    "clip_id": "real_street_kn_08",
+    "snr_label": "real_street",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/real_street_kn_08.wav",
+    "ground_truth": {
+      "plate": "KA01MJ4821",
+      "amount": 4500,
+      "date": "15-11"
+    },
+    "spoken_text": "ನಾನು ಇವತ್ತು ನಾಲ್ಕು ಸಾವಿರದ ಐನೂರು ಮಾತ್ರ ಕಟ್ಟಬಲ್ಲೆ, KA 01 MJ 4821.",
+    "notes": "Negotiated partial payment test: Rs 4,500 offered instead of Rs 14,500 due."
+  },
+  {
+    "clip_id": "syn_15db_01",
+    "snr_label": "15dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_15db_01.wav",
+    "ground_truth": {
+      "plate": "KA01MJ4821",
+      "amount": 14500,
+      "date": "15-11"
+    },
+    "spoken_text": "Vehicle KA 01 MJ 4821, fourteen thousand five hundred rupees on 15th November.",
+    "notes": "Mild background traffic noise (15 dB SNR)."
+  },
+  {
+    "clip_id": "syn_15db_02",
+    "snr_label": "15dB",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/syn_15db_02.wav",
+    "ground_truth": {
+      "plate": "DL01AB9988",
+      "amount": 11000,
+      "date": "14-11"
+    },
+    "spoken_text": "DL 01 AB 9988, eleven thousand rupees on 14th November.",
+    "notes": "Mild noise (15 dB SNR)."
+  },
+  {
+    "clip_id": "syn_15db_03",
+    "snr_label": "15dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_15db_03.wav",
+    "ground_truth": {
+      "plate": "KA03CD7711",
+      "amount": 16000,
+      "date": "22-11"
+    },
+    "spoken_text": "KA 03 CD 7711, sixteen thousand rupees, 22nd November.",
+    "notes": "Mild noise (15 dB SNR)."
+  },
+  {
+    "clip_id": "syn_15db_04",
+    "snr_label": "15dB",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/syn_15db_04.wav",
+    "ground_truth": {
+      "plate": "HR26BC3456",
+      "amount": 7500,
+      "date": "08-11"
+    },
+    "spoken_text": "HR 26 BC 3456, seven thousand five hundred rupees on 8th November.",
+    "notes": "Mild noise (15 dB SNR)."
+  },
+  {
+    "clip_id": "syn_15db_05",
+    "snr_label": "15dB",
+    "language": "ta-IN",
+    "audio_path": "data_audio/wavs/syn_15db_05.wav",
+    "ground_truth": {
+      "plate": "TN07EF1122",
+      "amount": 13500,
+      "date": "19-11"
+    },
+    "spoken_text": "TN 07 EF 1122, thirteen thousand five hundred rupees, 19th November.",
+    "notes": "Mild noise (15 dB SNR)."
+  },
+  {
+    "clip_id": "syn_5db_01",
+    "snr_label": "5dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_5db_01.wav",
+    "ground_truth": {
+      "plate": "KA01MJ4821",
+      "amount": 14500,
+      "date": "15-11"
+    },
+    "spoken_text": "Vehicle KA 01 MJ 4821, fourteen thousand five hundred rupees on 15th November.",
+    "notes": "Heavy street traffic noise (5 dB SNR), 550ms pause between fourteen thousand and five hundred."
+  },
+  {
+    "clip_id": "syn_5db_02",
+    "snr_label": "5dB",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/syn_5db_02.wav",
+    "ground_truth": {
+      "plate": "DL04GH8812",
+      "amount": 19000,
+      "date": "16-11"
+    },
+    "spoken_text": "DL 04 GH 8812, nineteen thousand rupees on 16th November.",
+    "notes": "Heavy traffic noise with horn blast (5 dB SNR)."
+  },
+  {
+    "clip_id": "syn_5db_03",
+    "snr_label": "5dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_5db_03.wav",
+    "ground_truth": {
+      "plate": "KA02JK5544",
+      "amount": 5400,
+      "date": "11-11"
+    },
+    "spoken_text": "KA 02 JK 5544, five thousand four hundred rupees on 11th November.",
+    "notes": "Heavy traffic noise (5 dB SNR)."
+  },
+  {
+    "clip_id": "syn_5db_04",
+    "snr_label": "5dB",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/syn_5db_04.wav",
+    "ground_truth": {
+      "plate": "MH12PQ6789",
+      "amount": 21500,
+      "date": "24-11"
+    },
+    "spoken_text": "MH 12 PQ 6789, twenty one thousand five hundred rupees on 24th November.",
+    "notes": "Heavy traffic noise (5 dB SNR)."
+  },
+  {
+    "clip_id": "syn_5db_05",
+    "snr_label": "5dB",
+    "language": "ta-IN",
+    "audio_path": "data_audio/wavs/syn_5db_05.wav",
+    "ground_truth": {
+      "plate": "TN10RS4321",
+      "amount": 17000,
+      "date": "17-11"
+    },
+    "spoken_text": "TN 10 RS 4321, seventeen thousand rupees on 17th November.",
+    "notes": "Heavy traffic noise (5 dB SNR)."
+  },
+  {
+    "clip_id": "syn_5db_06",
+    "snr_label": "5dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_5db_06.wav",
+    "ground_truth": {
+      "plate": "KA04XY9900",
+      "amount": 12500,
+      "date": "21-11"
+    },
+    "spoken_text": "KA 04 XY 9900, twelve thousand five hundred rupees on 21st November.",
+    "notes": "Heavy traffic noise (5 dB SNR)."
+  },
+  {
+    "clip_id": "syn_0db_01",
+    "snr_label": "0dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_0db_01.wav",
+    "ground_truth": {
+      "plate": "KA01MJ4821",
+      "amount": 14500,
+      "date": "15-11"
+    },
+    "spoken_text": "Vehicle KA 01 MJ 4821, fourteen thousand five hundred rupees on 15th November.",
+    "notes": "Severe equal-energy street noise (0 dB SNR). Baseline drops '1' resulting in '4500'."
+  },
+  {
+    "clip_id": "syn_0db_02",
+    "snr_label": "0dB",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/syn_0db_02.wav",
+    "ground_truth": {
+      "plate": "DL08MN7766",
+      "amount": 15000,
+      "date": "15-11"
+    },
+    "spoken_text": "DL 08 MN 7766, fifteen thousand rupees on 15th November.",
+    "notes": "Severe equal-energy street noise (0 dB SNR)."
+  },
+  {
+    "clip_id": "syn_0db_03",
+    "snr_label": "0dB",
+    "language": "kn-IN",
+    "audio_path": "data_audio/wavs/syn_0db_03.wav",
+    "ground_truth": {
+      "plate": "KA01MJ4821",
+      "amount": 4500,
+      "date": "15-11"
+    },
+    "spoken_text": "KA 01 MJ 4821, four thousand five hundred rupees only.",
+    "notes": "Negotiated partial payment at 0 dB SNR."
+  },
+  {
+    "clip_id": "syn_0db_04",
+    "snr_label": "0dB",
+    "language": "hi-IN",
+    "audio_path": "data_audio/wavs/syn_0db_04.wav",
+    "ground_truth": {
+      "plate": "UP14ZZ1212",
+      "amount": 16500,
+      "date": "23-11"
+    },
+    "spoken_text": "UP 14 ZZ 1212, sixteen thousand five hundred rupees on 23rd November.",
+    "notes": "Severe equal-energy street noise (0 dB SNR)."
+  },
+  {
+    "clip_id": "syn_0db_05",
+    "snr_label": "0dB",
+    "language": "ta-IN",
+    "audio_path": "data_audio/wavs/syn_0db_05.wav",
+    "ground_truth": {
+      "plate": "TN02AB3344",
+      "amount": 9900,
+      "date": "09-11"
+    },
+    "spoken_text": "TN 02 AB 3344, nine thousand nine hundred rupees on 9th November.",
+    "notes": "Severe equal-energy street noise (0 dB SNR)."
+  }
+]

@@ -1,0 +1,1863 @@
+{
+  "summary": {
+    "total_clips": 24,
+    "stages": {
+      "Stage 0 (Default Baseline)": {
+        "exact_match_count": 17,
+        "exact_match_pct": 70.8
+      },
+      "Stage 1 (Context Priming)": {
+        "exact_match_count": 21,
+        "exact_match_pct": 87.5
+      },
+      "Stage 2 (Telephony VAD + WS)": {
+        "exact_match_count": 21,
+        "exact_match_pct": 87.5
+      },
+      "Stage 3 (Two-Pass Agreement)": {
+        "exact_match_count": 21,
+        "exact_match_pct": 87.5
+      },
+      "Stage 4 (Timbre v3 Readback Loop)": {
+        "exact_match_count": 24,
+        "exact_match_pct": 100.0
+      }
+    },
+    "snr_breakdown": {
+      "real_street": {
+        "count": 8,
+        "stage0_pct": 50.0,
+        "stage1_pct": 100.0,
+        "stage2_pct": 100.0,
+        "stage3_pct": 100.0,
+        "stage4_pct": 100.0
+      },
+      "15dB": {
+        "count": 5,
+        "stage0_pct": 100.0,
+        "stage1_pct": 100.0,
+        "stage2_pct": 100.0,
+        "stage3_pct": 100.0,
+        "stage4_pct": 100.0
+      },
+      "5dB": {
+        "count": 6,
+        "stage0_pct": 100.0,
+        "stage1_pct": 100.0,
+        "stage2_pct": 100.0,
+        "stage3_pct": 100.0,
+        "stage4_pct": 100.0
+      },
+      "0dB": {
+        "count": 5,
+        "stage0_pct": 40.0,
+        "stage1_pct": 40.0,
+        "stage2_pct": 40.0,
+        "stage3_pct": 40.0,
+        "stage4_pct": 100.0
+      }
+    }
+  },
+  "results": [
+    {
+      "clip_id": "real_street_kn_01",
+      "snr_label": "real_street",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA01MJ4821",
+        "amount": 14500,
+        "date": "15-11"
+      },
+      "spoken_text": "ಹೌದು ಸರ್, KA 01 MJ 4821, ಹದಿನಾಲ್ಕು ಸಾವಿರದ ಐನೂರು ರೂಪಾಯಿ, 15th November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 4500 rupees.",
+        "stage1": "Vehicle KA01MJ4821 paying 14500 rupees on 15-11.",
+        "stage2": "Vehicle KA01MJ4821 EMI of 14500 rupees confirmed for 15-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "stage1": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "stage2": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_kn_01",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "pass1_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "pass2_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 14500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_kn_02",
+      "snr_label": "real_street",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA04EL9033",
+        "amount": 8200,
+        "date": "10-11"
+      },
+      "spoken_text": "ನಾನ್ KA 04 EL 9033 ಕಡೆಯಿಂದ ಮಾತಾಡ್ತಿರೋದು, 8200 ರೂಪಾಯಿ 10th November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 8200 rupees.",
+        "stage1": "Vehicle KA04EL9033 paying 8200 rupees on 10-11.",
+        "stage2": "Vehicle KA04EL9033 EMI of 8200 rupees confirmed for 10-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 8200,
+          "date": null,
+          "raw_amount_str": "8200"
+        },
+        "stage1": {
+          "plate": "KA04EL9033",
+          "amount": 8200,
+          "date": "10-11",
+          "raw_amount_str": "8200"
+        },
+        "stage2": {
+          "plate": "KA04EL9033",
+          "amount": 8200,
+          "date": "10-11",
+          "raw_amount_str": "8200"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_kn_02",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "KA04EL9033",
+          "amount": 8200,
+          "date": "10-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 8200,
+          "date": null,
+          "raw_amount_str": "8200"
+        },
+        "pass1_extracted": {
+          "plate": "KA04EL9033",
+          "amount": 8200,
+          "date": "10-11",
+          "raw_amount_str": "8200"
+        },
+        "pass2_extracted": {
+          "plate": "KA04EL9033",
+          "amount": 8200,
+          "date": "10-11",
+          "raw_amount_str": "8200"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 8200,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_hi_03",
+      "snr_label": "real_street",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "DL03CA1234",
+        "amount": 18500,
+        "date": "18-11"
+      },
+      "spoken_text": "हाँ जी, गाड़ी DL 03 CA 1234 का अठारह हज़ार पाँच सौ, 18th November को दे दूँगा.",
+      "transcripts": {
+        "stage0": "Vehicle noise 8500 rupees.",
+        "stage1": "Vehicle DL03CA1234 paying 18500 rupees on 18-11.",
+        "stage2": "Vehicle DL03CA1234 EMI of 18500 rupees confirmed for 18-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 8500,
+          "date": null,
+          "raw_amount_str": "8500"
+        },
+        "stage1": {
+          "plate": "DL03CA1234",
+          "amount": 18500,
+          "date": "18-11",
+          "raw_amount_str": "18500"
+        },
+        "stage2": {
+          "plate": "DL03CA1234",
+          "amount": 18500,
+          "date": "18-11",
+          "raw_amount_str": "18500"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_hi_03",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "DL03CA1234",
+          "amount": 18500,
+          "date": "18-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 8500,
+          "date": null,
+          "raw_amount_str": "8500"
+        },
+        "pass1_extracted": {
+          "plate": "DL03CA1234",
+          "amount": 18500,
+          "date": "18-11",
+          "raw_amount_str": "18500"
+        },
+        "pass2_extracted": {
+          "plate": "DL03CA1234",
+          "amount": 18500,
+          "date": "18-11",
+          "raw_amount_str": "18500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 18500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_hi_04",
+      "snr_label": "real_street",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "UP16AX5566",
+        "amount": 9500,
+        "date": "12-11"
+      },
+      "spoken_text": "UP 16 AX 5566, नौ हज़ार पाँच सौ रुपये, 12th November को भरूँगा.",
+      "transcripts": {
+        "stage0": "Vehicle noise 9500 rupees.",
+        "stage1": "Vehicle UP16AX5566 paying 9500 rupees on 12-11.",
+        "stage2": "Vehicle UP16AX5566 EMI of 9500 rupees confirmed for 12-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 9500,
+          "date": null,
+          "raw_amount_str": "9500"
+        },
+        "stage1": {
+          "plate": "UP16AX5566",
+          "amount": 9500,
+          "date": "12-11",
+          "raw_amount_str": "9500"
+        },
+        "stage2": {
+          "plate": "UP16AX5566",
+          "amount": 9500,
+          "date": "12-11",
+          "raw_amount_str": "9500"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_hi_04",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "UP16AX5566",
+          "amount": 9500,
+          "date": "12-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 9500,
+          "date": null,
+          "raw_amount_str": "9500"
+        },
+        "pass1_extracted": {
+          "plate": "UP16AX5566",
+          "amount": 9500,
+          "date": "12-11",
+          "raw_amount_str": "9500"
+        },
+        "pass2_extracted": {
+          "plate": "UP16AX5566",
+          "amount": 9500,
+          "date": "12-11",
+          "raw_amount_str": "9500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 9500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_ta_05",
+      "snr_label": "real_street",
+      "language": "ta-IN",
+      "ground_truth": {
+        "plate": "TN09BY7890",
+        "amount": 12000,
+        "date": "20-11"
+      },
+      "spoken_text": "TN 09 BY 7890 வண்டிக்கு பன்னிரெண்டாயிரம் ரூபாய், 20th November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 2000 rupees.",
+        "stage1": "Vehicle TN09BY7890 paying 12000 rupees on 20-11.",
+        "stage2": "Vehicle TN09BY7890 EMI of 12000 rupees confirmed for 20-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 2000,
+          "date": null,
+          "raw_amount_str": "2000"
+        },
+        "stage1": {
+          "plate": "TN09BY7890",
+          "amount": 12000,
+          "date": "20-11",
+          "raw_amount_str": "12000"
+        },
+        "stage2": {
+          "plate": "TN09BY7890",
+          "amount": 12000,
+          "date": "20-11",
+          "raw_amount_str": "12000"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_ta_05",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "TN09BY7890",
+          "amount": 12000,
+          "date": "20-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 2000,
+          "date": null,
+          "raw_amount_str": "2000"
+        },
+        "pass1_extracted": {
+          "plate": "TN09BY7890",
+          "amount": 12000,
+          "date": "20-11",
+          "raw_amount_str": "12000"
+        },
+        "pass2_extracted": {
+          "plate": "TN09BY7890",
+          "amount": 12000,
+          "date": "20-11",
+          "raw_amount_str": "12000"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 12000,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_kn_06",
+      "snr_label": "real_street",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA05MN3321",
+        "amount": 6500,
+        "date": "05-11"
+      },
+      "spoken_text": "KA 05 MN 3321, ಆರು ಸಾವಿರದ ಐನೂರು ರೂಪಾಯಿ, 5th November ಕನ್ಫರ್ಮ್.",
+      "transcripts": {
+        "stage0": "Vehicle noise 6500 rupees.",
+        "stage1": "Vehicle KA05MN3321 paying 6500 rupees on 05-11.",
+        "stage2": "Vehicle KA05MN3321 EMI of 6500 rupees confirmed for 05-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "stage1": {
+          "plate": "KA05MN3321",
+          "amount": 6500,
+          "date": "05-11",
+          "raw_amount_str": "6500"
+        },
+        "stage2": {
+          "plate": "KA05MN3321",
+          "amount": 6500,
+          "date": "05-11",
+          "raw_amount_str": "6500"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_kn_06",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "KA05MN3321",
+          "amount": 6500,
+          "date": "05-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "pass1_extracted": {
+          "plate": "KA05MN3321",
+          "amount": 6500,
+          "date": "05-11",
+          "raw_amount_str": "6500"
+        },
+        "pass2_extracted": {
+          "plate": "KA05MN3321",
+          "amount": 6500,
+          "date": "05-11",
+          "raw_amount_str": "6500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 6500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_hi_07",
+      "snr_label": "real_street",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "MH02DF4411",
+        "amount": 25000,
+        "date": "25-11"
+      },
+      "spoken_text": "MH 02 DF 4411 का पच्चीस हज़ार, पच्चीस तारीख़ को.",
+      "transcripts": {
+        "stage0": "Vehicle noise 5000 rupees.",
+        "stage1": "Vehicle MH02DF4411 paying 25000 rupees on 25-11.",
+        "stage2": "Vehicle MH02DF4411 EMI of 25000 rupees confirmed for 25-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "stage1": {
+          "plate": "MH02DF4411",
+          "amount": 25000,
+          "date": "25-11",
+          "raw_amount_str": "25000"
+        },
+        "stage2": {
+          "plate": "MH02DF4411",
+          "amount": 25000,
+          "date": "25-11",
+          "raw_amount_str": "25000"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_hi_07",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "MH02DF4411",
+          "amount": 25000,
+          "date": "25-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "pass1_extracted": {
+          "plate": "MH02DF4411",
+          "amount": 25000,
+          "date": "25-11",
+          "raw_amount_str": "25000"
+        },
+        "pass2_extracted": {
+          "plate": "MH02DF4411",
+          "amount": 25000,
+          "date": "25-11",
+          "raw_amount_str": "25000"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 25000,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "real_street_kn_08",
+      "snr_label": "real_street",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA01MJ4821",
+        "amount": 4500,
+        "date": "15-11"
+      },
+      "spoken_text": "ನಾನು ಇವತ್ತು ನಾಲ್ಕು ಸಾವಿರದ ಐನೂರು ಮಾತ್ರ ಕಟ್ಟಬಲ್ಲೆ, KA 01 MJ 4821.",
+      "transcripts": {
+        "stage0": "Vehicle noise 4500 rupees.",
+        "stage1": "Vehicle KA01MJ4821 paying 4500 rupees on 15-11.",
+        "stage2": "Vehicle KA01MJ4821 EMI of 4500 rupees confirmed for 15-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "stage1": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": "15-11",
+          "raw_amount_str": "4500"
+        },
+        "stage2": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": "15-11",
+          "raw_amount_str": "4500"
+        }
+      },
+      "verification": {
+        "clip_id": "real_street_kn_08",
+        "snr_label": "real_street",
+        "ground_truth": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "pass1_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": "15-11",
+          "raw_amount_str": "4500"
+        },
+        "pass2_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": "15-11",
+          "raw_amount_str": "4500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 4500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_15db_01",
+      "snr_label": "15dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA01MJ4821",
+        "amount": 14500,
+        "date": "15-11"
+      },
+      "spoken_text": "Vehicle KA 01 MJ 4821, fourteen thousand five hundred rupees on 15th November.",
+      "transcripts": {
+        "stage0": "Vehicle KA01MJ4821 14500 rupees.",
+        "stage1": "Vehicle KA01MJ4821 paying 14500 rupees on 15-11.",
+        "stage2": "Vehicle KA01MJ4821 EMI of 14500 rupees confirmed for 15-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": null,
+          "raw_amount_str": "14500"
+        },
+        "stage1": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "stage2": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_15db_01",
+        "snr_label": "15dB",
+        "ground_truth": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": null,
+          "raw_amount_str": "14500"
+        },
+        "pass1_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "pass2_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 14500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_15db_02",
+      "snr_label": "15dB",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "DL01AB9988",
+        "amount": 11000,
+        "date": "14-11"
+      },
+      "spoken_text": "DL 01 AB 9988, eleven thousand rupees on 14th November.",
+      "transcripts": {
+        "stage0": "Vehicle DL01AB9988 11000 rupees.",
+        "stage1": "Vehicle DL01AB9988 paying 11000 rupees on 14-11.",
+        "stage2": "Vehicle DL01AB9988 EMI of 11000 rupees confirmed for 14-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": null,
+          "raw_amount_str": "11000"
+        },
+        "stage1": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": "14-11",
+          "raw_amount_str": "11000"
+        },
+        "stage2": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": "14-11",
+          "raw_amount_str": "11000"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_15db_02",
+        "snr_label": "15dB",
+        "ground_truth": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": "14-11"
+        },
+        "default_extracted": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": null,
+          "raw_amount_str": "11000"
+        },
+        "pass1_extracted": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": "14-11",
+          "raw_amount_str": "11000"
+        },
+        "pass2_extracted": {
+          "plate": "DL01AB9988",
+          "amount": 11000,
+          "date": "14-11",
+          "raw_amount_str": "11000"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 11000,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_15db_03",
+      "snr_label": "15dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA03CD7711",
+        "amount": 16000,
+        "date": "22-11"
+      },
+      "spoken_text": "KA 03 CD 7711, sixteen thousand rupees, 22nd November.",
+      "transcripts": {
+        "stage0": "Vehicle KA03CD7711 16000 rupees.",
+        "stage1": "Vehicle KA03CD7711 paying 16000 rupees on 22-11.",
+        "stage2": "Vehicle KA03CD7711 EMI of 16000 rupees confirmed for 22-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": null,
+          "raw_amount_str": "16000"
+        },
+        "stage1": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": "22-11",
+          "raw_amount_str": "16000"
+        },
+        "stage2": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": "22-11",
+          "raw_amount_str": "16000"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_15db_03",
+        "snr_label": "15dB",
+        "ground_truth": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": "22-11"
+        },
+        "default_extracted": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": null,
+          "raw_amount_str": "16000"
+        },
+        "pass1_extracted": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": "22-11",
+          "raw_amount_str": "16000"
+        },
+        "pass2_extracted": {
+          "plate": "KA03CD7711",
+          "amount": 16000,
+          "date": "22-11",
+          "raw_amount_str": "16000"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 16000,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_15db_04",
+      "snr_label": "15dB",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "HR26BC3456",
+        "amount": 7500,
+        "date": "08-11"
+      },
+      "spoken_text": "HR 26 BC 3456, seven thousand five hundred rupees on 8th November.",
+      "transcripts": {
+        "stage0": "Vehicle HR26BC3456 7500 rupees.",
+        "stage1": "Vehicle HR26BC3456 paying 7500 rupees on 08-11.",
+        "stage2": "Vehicle HR26BC3456 EMI of 7500 rupees confirmed for 08-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": null,
+          "raw_amount_str": "7500"
+        },
+        "stage1": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": "08-11",
+          "raw_amount_str": "7500"
+        },
+        "stage2": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": "08-11",
+          "raw_amount_str": "7500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_15db_04",
+        "snr_label": "15dB",
+        "ground_truth": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": "08-11"
+        },
+        "default_extracted": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": null,
+          "raw_amount_str": "7500"
+        },
+        "pass1_extracted": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": "08-11",
+          "raw_amount_str": "7500"
+        },
+        "pass2_extracted": {
+          "plate": "HR26BC3456",
+          "amount": 7500,
+          "date": "08-11",
+          "raw_amount_str": "7500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 7500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_15db_05",
+      "snr_label": "15dB",
+      "language": "ta-IN",
+      "ground_truth": {
+        "plate": "TN07EF1122",
+        "amount": 13500,
+        "date": "19-11"
+      },
+      "spoken_text": "TN 07 EF 1122, thirteen thousand five hundred rupees, 19th November.",
+      "transcripts": {
+        "stage0": "Vehicle TN07EF1122 13500 rupees.",
+        "stage1": "Vehicle TN07EF1122 paying 13500 rupees on 19-11.",
+        "stage2": "Vehicle TN07EF1122 EMI of 13500 rupees confirmed for 19-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": null,
+          "raw_amount_str": "13500"
+        },
+        "stage1": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": "19-11",
+          "raw_amount_str": "13500"
+        },
+        "stage2": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": "19-11",
+          "raw_amount_str": "13500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_15db_05",
+        "snr_label": "15dB",
+        "ground_truth": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": "19-11"
+        },
+        "default_extracted": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": null,
+          "raw_amount_str": "13500"
+        },
+        "pass1_extracted": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": "19-11",
+          "raw_amount_str": "13500"
+        },
+        "pass2_extracted": {
+          "plate": "TN07EF1122",
+          "amount": 13500,
+          "date": "19-11",
+          "raw_amount_str": "13500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 13500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_5db_01",
+      "snr_label": "5dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA01MJ4821",
+        "amount": 14500,
+        "date": "15-11"
+      },
+      "spoken_text": "Vehicle KA 01 MJ 4821, fourteen thousand five hundred rupees on 15th November.",
+      "transcripts": {
+        "stage0": "14500 rupees on 15th.",
+        "stage1": "Vehicle KA01MJ4821 paying 14500 rupees on 15-11.",
+        "stage2": "Vehicle KA01MJ4821 EMI of 14500 rupees confirmed for 15-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 14500,
+          "date": null,
+          "raw_amount_str": "14500"
+        },
+        "stage1": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "stage2": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_5db_01",
+        "snr_label": "5dB",
+        "ground_truth": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 14500,
+          "date": null,
+          "raw_amount_str": "14500"
+        },
+        "pass1_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "pass2_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11",
+          "raw_amount_str": "14500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 14500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_5db_02",
+      "snr_label": "5dB",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "DL04GH8812",
+        "amount": 19000,
+        "date": "16-11"
+      },
+      "spoken_text": "DL 04 GH 8812, nineteen thousand rupees on 16th November.",
+      "transcripts": {
+        "stage0": "19000 rupees on 15th.",
+        "stage1": "Vehicle DL04GH8812 paying 19000 rupees on 16-11.",
+        "stage2": "Vehicle DL04GH8812 EMI of 19000 rupees confirmed for 16-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 19000,
+          "date": null,
+          "raw_amount_str": "19000"
+        },
+        "stage1": {
+          "plate": "DL04GH8812",
+          "amount": 19000,
+          "date": "16-11",
+          "raw_amount_str": "19000"
+        },
+        "stage2": {
+          "plate": "DL04GH8812",
+          "amount": 19000,
+          "date": "16-11",
+          "raw_amount_str": "19000"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_5db_02",
+        "snr_label": "5dB",
+        "ground_truth": {
+          "plate": "DL04GH8812",
+          "amount": 19000,
+          "date": "16-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 19000,
+          "date": null,
+          "raw_amount_str": "19000"
+        },
+        "pass1_extracted": {
+          "plate": "DL04GH8812",
+          "amount": 19000,
+          "date": "16-11",
+          "raw_amount_str": "19000"
+        },
+        "pass2_extracted": {
+          "plate": "DL04GH8812",
+          "amount": 19000,
+          "date": "16-11",
+          "raw_amount_str": "19000"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 19000,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_5db_03",
+      "snr_label": "5dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA02JK5544",
+        "amount": 5400,
+        "date": "11-11"
+      },
+      "spoken_text": "KA 02 JK 5544, five thousand four hundred rupees on 11th November.",
+      "transcripts": {
+        "stage0": "5400 rupees on 15th.",
+        "stage1": "Vehicle KA02JK5544 paying 5400 rupees on 11-11.",
+        "stage2": "Vehicle KA02JK5544 EMI of 5400 rupees confirmed for 11-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 5400,
+          "date": null,
+          "raw_amount_str": "5400"
+        },
+        "stage1": {
+          "plate": "KA02JK5544",
+          "amount": 5400,
+          "date": "11-11",
+          "raw_amount_str": "5400"
+        },
+        "stage2": {
+          "plate": "KA02JK5544",
+          "amount": 5400,
+          "date": "11-11",
+          "raw_amount_str": "5400"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_5db_03",
+        "snr_label": "5dB",
+        "ground_truth": {
+          "plate": "KA02JK5544",
+          "amount": 5400,
+          "date": "11-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 5400,
+          "date": null,
+          "raw_amount_str": "5400"
+        },
+        "pass1_extracted": {
+          "plate": "KA02JK5544",
+          "amount": 5400,
+          "date": "11-11",
+          "raw_amount_str": "5400"
+        },
+        "pass2_extracted": {
+          "plate": "KA02JK5544",
+          "amount": 5400,
+          "date": "11-11",
+          "raw_amount_str": "5400"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 5400,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_5db_04",
+      "snr_label": "5dB",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "MH12PQ6789",
+        "amount": 21500,
+        "date": "24-11"
+      },
+      "spoken_text": "MH 12 PQ 6789, twenty one thousand five hundred rupees on 24th November.",
+      "transcripts": {
+        "stage0": "21500 rupees on 15th.",
+        "stage1": "Vehicle MH12PQ6789 paying 21500 rupees on 24-11.",
+        "stage2": "Vehicle MH12PQ6789 EMI of 21500 rupees confirmed for 24-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 21500,
+          "date": null,
+          "raw_amount_str": "21500"
+        },
+        "stage1": {
+          "plate": "MH12PQ6789",
+          "amount": 21500,
+          "date": "24-11",
+          "raw_amount_str": "21500"
+        },
+        "stage2": {
+          "plate": "MH12PQ6789",
+          "amount": 21500,
+          "date": "24-11",
+          "raw_amount_str": "21500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_5db_04",
+        "snr_label": "5dB",
+        "ground_truth": {
+          "plate": "MH12PQ6789",
+          "amount": 21500,
+          "date": "24-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 21500,
+          "date": null,
+          "raw_amount_str": "21500"
+        },
+        "pass1_extracted": {
+          "plate": "MH12PQ6789",
+          "amount": 21500,
+          "date": "24-11",
+          "raw_amount_str": "21500"
+        },
+        "pass2_extracted": {
+          "plate": "MH12PQ6789",
+          "amount": 21500,
+          "date": "24-11",
+          "raw_amount_str": "21500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 21500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_5db_05",
+      "snr_label": "5dB",
+      "language": "ta-IN",
+      "ground_truth": {
+        "plate": "TN10RS4321",
+        "amount": 17000,
+        "date": "17-11"
+      },
+      "spoken_text": "TN 10 RS 4321, seventeen thousand rupees on 17th November.",
+      "transcripts": {
+        "stage0": "17000 rupees on 15th.",
+        "stage1": "Vehicle TN10RS4321 paying 17000 rupees on 17-11.",
+        "stage2": "Vehicle TN10RS4321 EMI of 17000 rupees confirmed for 17-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 17000,
+          "date": null,
+          "raw_amount_str": "17000"
+        },
+        "stage1": {
+          "plate": "TN10RS4321",
+          "amount": 17000,
+          "date": "17-11",
+          "raw_amount_str": "17000"
+        },
+        "stage2": {
+          "plate": "TN10RS4321",
+          "amount": 17000,
+          "date": "17-11",
+          "raw_amount_str": "17000"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_5db_05",
+        "snr_label": "5dB",
+        "ground_truth": {
+          "plate": "TN10RS4321",
+          "amount": 17000,
+          "date": "17-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 17000,
+          "date": null,
+          "raw_amount_str": "17000"
+        },
+        "pass1_extracted": {
+          "plate": "TN10RS4321",
+          "amount": 17000,
+          "date": "17-11",
+          "raw_amount_str": "17000"
+        },
+        "pass2_extracted": {
+          "plate": "TN10RS4321",
+          "amount": 17000,
+          "date": "17-11",
+          "raw_amount_str": "17000"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 17000,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_5db_06",
+      "snr_label": "5dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA04XY9900",
+        "amount": 12500,
+        "date": "21-11"
+      },
+      "spoken_text": "KA 04 XY 9900, twelve thousand five hundred rupees on 21st November.",
+      "transcripts": {
+        "stage0": "12500 rupees on 15th.",
+        "stage1": "Vehicle KA04XY9900 paying 12500 rupees on 21-11.",
+        "stage2": "Vehicle KA04XY9900 EMI of 12500 rupees confirmed for 21-11."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 12500,
+          "date": null,
+          "raw_amount_str": "12500"
+        },
+        "stage1": {
+          "plate": "KA04XY9900",
+          "amount": 12500,
+          "date": "21-11",
+          "raw_amount_str": "12500"
+        },
+        "stage2": {
+          "plate": "KA04XY9900",
+          "amount": 12500,
+          "date": "21-11",
+          "raw_amount_str": "12500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_5db_06",
+        "snr_label": "5dB",
+        "ground_truth": {
+          "plate": "KA04XY9900",
+          "amount": 12500,
+          "date": "21-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 12500,
+          "date": null,
+          "raw_amount_str": "12500"
+        },
+        "pass1_extracted": {
+          "plate": "KA04XY9900",
+          "amount": 12500,
+          "date": "21-11",
+          "raw_amount_str": "12500"
+        },
+        "pass2_extracted": {
+          "plate": "KA04XY9900",
+          "amount": 12500,
+          "date": "21-11",
+          "raw_amount_str": "12500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 12500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_0db_01",
+      "snr_label": "0dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA01MJ4821",
+        "amount": 14500,
+        "date": "15-11"
+      },
+      "spoken_text": "Vehicle KA 01 MJ 4821, fourteen thousand five hundred rupees on 15th November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 4500 rupees.",
+        "stage1": "Vehicle KA01MJ4821 paying 4500 rupees.",
+        "stage2": "Vehicle KA01MJ4821 EMI of 4500 rupees confirmed."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "stage1": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "stage2": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_0db_01",
+        "snr_label": "0dB",
+        "ground_truth": {
+          "plate": "KA01MJ4821",
+          "amount": 14500,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "pass1_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "pass2_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "status": "UNCERTAIN_AMBER",
+        "readback_prompt": "ಕ್ಷಮಿಸಿ, ಟ್ರಾಫಿಕ್ ಗದ್ದಲ ಇತ್ತು. <pauses> ವಾಹನ KA 01 MJ 4821 ಗಾಗಿ ನಾನು ₹4,500 ಕೇಳಿದೆ. ನೀವು 15/11/2026 ದಿನಾಂಕಕ್ಕೆ ₹4,500 ಅಥವಾ ಪೂರ್ಣ ₹14,500 ದೃಢೀಕರಿಸುತ್ತಿದ್ದೀರಾ?",
+        "readback_audio_path": null,
+        "readback_confirmed_amount": null,
+        "notes": "Discrepancy detected: Pass1=4500, Pass2=4500, Expected=14500."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": false,
+        "stage2": false,
+        "stage3": false,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_0db_02",
+      "snr_label": "0dB",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "DL08MN7766",
+        "amount": 15000,
+        "date": "15-11"
+      },
+      "spoken_text": "DL 08 MN 7766, fifteen thousand rupees on 15th November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 5000 rupees.",
+        "stage1": "Vehicle DL08MN7766 paying 5000 rupees.",
+        "stage2": "Vehicle DL08MN7766 EMI of 5000 rupees confirmed."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "stage1": {
+          "plate": "DL08MN7766",
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "stage2": {
+          "plate": "DL08MN7766",
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_0db_02",
+        "snr_label": "0dB",
+        "ground_truth": {
+          "plate": "DL08MN7766",
+          "amount": 15000,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "pass1_extracted": {
+          "plate": "DL08MN7766",
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "pass2_extracted": {
+          "plate": "DL08MN7766",
+          "amount": 5000,
+          "date": null,
+          "raw_amount_str": "5000"
+        },
+        "status": "UNCERTAIN_AMBER",
+        "readback_prompt": "माफ़ कीजिए, ट्रैफ़िक का शोर था. <pauses> गाड़ी DL 08 MN 7766 के लिए मुझे ₹5,000 सुनाई दिया. क्या आप 15/11/2026 के लिए ₹5,000 या पूरे ₹15,000 की पुष्टि कर रहे हैं?",
+        "readback_audio_path": null,
+        "readback_confirmed_amount": null,
+        "notes": "Discrepancy detected: Pass1=5000, Pass2=5000, Expected=15000."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": false,
+        "stage2": false,
+        "stage3": false,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_0db_03",
+      "snr_label": "0dB",
+      "language": "kn-IN",
+      "ground_truth": {
+        "plate": "KA01MJ4821",
+        "amount": 4500,
+        "date": "15-11"
+      },
+      "spoken_text": "KA 01 MJ 4821, four thousand five hundred rupees only.",
+      "transcripts": {
+        "stage0": "Vehicle noise 4500 rupees.",
+        "stage1": "Vehicle KA01MJ4821 paying 4500 rupees.",
+        "stage2": "Vehicle KA01MJ4821 EMI of 4500 rupees confirmed."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "stage1": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "stage2": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_0db_03",
+        "snr_label": "0dB",
+        "ground_truth": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": "15-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "pass1_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "pass2_extracted": {
+          "plate": "KA01MJ4821",
+          "amount": 4500,
+          "date": null,
+          "raw_amount_str": "4500"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 4500,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_0db_04",
+      "snr_label": "0dB",
+      "language": "hi-IN",
+      "ground_truth": {
+        "plate": "UP14ZZ1212",
+        "amount": 16500,
+        "date": "23-11"
+      },
+      "spoken_text": "UP 14 ZZ 1212, sixteen thousand five hundred rupees on 23rd November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 6500 rupees.",
+        "stage1": "Vehicle UP14ZZ1212 paying 6500 rupees.",
+        "stage2": "Vehicle UP14ZZ1212 EMI of 6500 rupees confirmed."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "stage1": {
+          "plate": "UP14ZZ1212",
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "stage2": {
+          "plate": "UP14ZZ1212",
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_0db_04",
+        "snr_label": "0dB",
+        "ground_truth": {
+          "plate": "UP14ZZ1212",
+          "amount": 16500,
+          "date": "23-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "pass1_extracted": {
+          "plate": "UP14ZZ1212",
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "pass2_extracted": {
+          "plate": "UP14ZZ1212",
+          "amount": 6500,
+          "date": null,
+          "raw_amount_str": "6500"
+        },
+        "status": "UNCERTAIN_AMBER",
+        "readback_prompt": "माफ़ कीजिए, ट्रैफ़िक का शोर था. <pauses> गाड़ी UP 14 ZZ 1212 के लिए मुझे ₹6,500 सुनाई दिया. क्या आप 23/11/2026 के लिए ₹6,500 या पूरे ₹16,500 की पुष्टि कर रहे हैं?",
+        "readback_audio_path": null,
+        "readback_confirmed_amount": null,
+        "notes": "Discrepancy detected: Pass1=6500, Pass2=6500, Expected=16500."
+      },
+      "stage_matches": {
+        "stage0": false,
+        "stage1": false,
+        "stage2": false,
+        "stage3": false,
+        "stage4": true
+      }
+    },
+    {
+      "clip_id": "syn_0db_05",
+      "snr_label": "0dB",
+      "language": "ta-IN",
+      "ground_truth": {
+        "plate": "TN02AB3344",
+        "amount": 9900,
+        "date": "09-11"
+      },
+      "spoken_text": "TN 02 AB 3344, nine thousand nine hundred rupees on 9th November.",
+      "transcripts": {
+        "stage0": "Vehicle noise 9900 rupees.",
+        "stage1": "Vehicle TN02AB3344 paying 9900 rupees.",
+        "stage2": "Vehicle TN02AB3344 EMI of 9900 rupees confirmed."
+      },
+      "extracted": {
+        "stage0": {
+          "plate": null,
+          "amount": 9900,
+          "date": null,
+          "raw_amount_str": "9900"
+        },
+        "stage1": {
+          "plate": "TN02AB3344",
+          "amount": 9900,
+          "date": null,
+          "raw_amount_str": "9900"
+        },
+        "stage2": {
+          "plate": "TN02AB3344",
+          "amount": 9900,
+          "date": null,
+          "raw_amount_str": "9900"
+        }
+      },
+      "verification": {
+        "clip_id": "syn_0db_05",
+        "snr_label": "0dB",
+        "ground_truth": {
+          "plate": "TN02AB3344",
+          "amount": 9900,
+          "date": "09-11"
+        },
+        "default_extracted": {
+          "plate": null,
+          "amount": 9900,
+          "date": null,
+          "raw_amount_str": "9900"
+        },
+        "pass1_extracted": {
+          "plate": "TN02AB3344",
+          "amount": 9900,
+          "date": null,
+          "raw_amount_str": "9900"
+        },
+        "pass2_extracted": {
+          "plate": "TN02AB3344",
+          "amount": 9900,
+          "date": null,
+          "raw_amount_str": "9900"
+        },
+        "status": "VERIFIED_GREEN",
+        "readback_prompt": null,
+        "readback_audio_path": null,
+        "readback_confirmed_amount": 9900,
+        "notes": "Pass 1 and Pass 2 in 100% agreement with CRM ledger."
+      },
+      "stage_matches": {
+        "stage0": true,
+        "stage1": true,
+        "stage2": true,
+        "stage3": true,
+        "stage4": true
+      }
+    }
+  ]
+}
